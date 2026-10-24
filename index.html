@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pushpak's developer blog: learning Java, Spring Boot, backend engineering and more.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Pushpak Dev Blog</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Markdown rendering and HTML sanitization -->
+  <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">pushpak<span>.dev</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#series/springboot">Learning Series</a>
+      <a href="https://github.com/thpushpak04" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="app" class="container">
+    <section class="hero">
+      <p class="eyebrow">THE DEVELOPER LOGBOOK</p>
+      <h1>Learning tech.<br><span>One concept at a time.</span></h1>
+      <p class="hero-description">
+        A personal space to document what I learn, the code I write,
+        the bugs I fix, and the ideas that finally click.
+      </p>
+      <a class="primary-link" href="#series/springboot">
+        Explore my journey <span>→</span>
+      </a>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">DOCUMENTING THE PROCESS</p>
+          <h2>Learning series</h2>
+        </div>
+        <span class="muted">01 collection</span>
+      </div>
+
+      <a class="series-card" href="#series/springboot">
+        <div class="series-icon">☕</div>
+        <div class="series-info">
+          <p class="card-label">BACKEND DEVELOPMENT</p>
+          <h3>Spring Boot Journey</h3>
+          <p>From Java fundamentals to building backend applications,
+            one lecture and one lesson at a time.</p>
+          <span class="text-link">Explore articles →</span>
+        </div>
+        <span class="card-arrow">↗</span>
+      </a>
+    </section>
+
+    <footer>
+      <p>Built with curiosity and a little bit of debugging.</p>
+      <p>© <span id="year"></span> Pushpak</p>
+    </footer>
+  </main>
+</body>
+</html>
