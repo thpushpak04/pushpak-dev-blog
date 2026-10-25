@@ -11,6 +11,12 @@ const articles = [
     description: "My first notes from the backend learning journey.",
     file: "SpringBoot-Journey/Day1_blog.md"
   }
+
+    {
+    title: "Day 2: Backend with Java",
+    description: "My first notes from the backend learning journey.",
+    file: "SpringBoot-Journey/Day2_blog.md"
+  }
 ];
 
 function renderHome() {
